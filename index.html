@@ -1,37 +1,54 @@
 <!DOCTYPE html>
+<html lang="en">
 <style>
-    img {
-        display: block;
+    ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    li {
+        display: inline;
+    }
+    div {
         margin-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 320px;
+        padding: 10px;
+        margin: auto;
+    }
+    h1 {
+        margin-top: 100px;
+        width: 320px;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    h2 {
+        margin-top: 100px;
+        width: 320px;
+        padding: 10px;
+        margin: auto;
+        width: 600px;
+        text-align: center;
     }
     input {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+        width: 450px;
+        border-radius: 20px;
     }
 </style>
-<html>
-    <head>
-        <ul>
-            <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-            <li><a href="https://www.google.com/imghp/">Image</a></li>
-            <li><a href="https://www.google.com/intl/es/about/products/">Gapps</a></li>
-            <li><a href="https://accounts.google.com/">Account</a></li>
-          </ul>
-        <body>
-            <div>
-                <img 
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Goolge logo" margin-left="auto"> 
-                <input class="text">
-            </div>
-        </body>
-    </head>
-
+  <head>
+    <meta charset="utf-8">
+    <title>Google search</title>
+    <header>
+    <ul>
+        <li>Gmail</li>
+        <li>Images</li>
+        <li>Gapps</li>
+        <li>Profile</li>
+      </ul>
+    </header>
+  </head>
+  <body>
+    <h1><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center" style="padding-top: 100px;"></h1>
+    <h2><input type="text"></h2>
+  </body>
 </html>
